@@ -1,8 +1,8 @@
 " GUI color definition {{{
-let s:gui00 = '1b2b34'
+let s:gui00 = '050b14'
 let s:gui01 = '343d46'
 let s:gui02 = '4f5b66'
-let s:gui03 = '65737e'
+let s:gui03 = '65e37e'
 let s:gui04 = 'a7adba'
 let s:gui05 = 'c0c5ce'
 let s:gui06 = 'cdd3de'
@@ -212,7 +212,7 @@ call <sid>hi("Normal",        s:gui05, s:gui00, s:cterm05, s:cterm00, "")
 call <sid>hi("LineNr",        s:gui03, s:gui01, s:cterm03, s:cterm01, "")
 call <sid>hi("CursorLineNR",  s:guiWhite, s:guiWhite, s:ctermWhite, s:ctermWhite, "")
 call <sid>hi("SignColumn",    s:gui03, s:gui01, s:cterm03, s:cterm01, "")
-call <sid>hi("SpecialKey",    s:gui03, "", s:cterm03, "", "")
+call <sid>hi("SpecialKey",    s:gui02, "", s:cterm02, "", "")  "<-- listchars
 call <sid>hi("StatusLine",    s:gui04, s:gui02, s:cterm04, s:cterm02, "none")
 call <sid>hi("StatusLineNC",  s:gui03, s:gui01, s:cterm03, s:cterm01, "none")
 call <sid>hi("VertSplit",     s:gui02, s:gui02, s:cterm02, s:cterm02, "none")
