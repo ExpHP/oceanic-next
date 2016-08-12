@@ -13,7 +13,7 @@ let s:gui0A = 'fac863'
 let s:gui0B = '99c794'
 let s:gui0C = '5fb3b3'
 let s:gui0D = '26d9fa'
-let s:gui0E = 'c594c5'
+let s:gui0E = 'f55495'
 let s:gui0F = 'ab7967'
 let s:guiWhite = 'ffffff'
 "}}}
